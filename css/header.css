@@ -2,17 +2,19 @@
     padding: 10px 0;
     background: url(../images/bg/header-bg1.png);
     background-position: right;
+    background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
 }
 .logo {
-    width: 100px;
-    height: 100px;
+    width: 130px;
+    height: 130px;
     margin-left: 15px;
 }
 .hamburger i{
     color: #251973;
     position: absolute;
+    font-size: 30px;
     top: 30px;
     right: 15px;
 }
