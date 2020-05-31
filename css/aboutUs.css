@@ -1,0 +1,15 @@
+#aboutUs {
+    background-image: url(../images/bg/header-bg2.png);
+    background-size: cover;
+    background-position:bottom center;
+    width: 100%;
+    height: 100vh;
+}
+
+.signature {
+    display: flex;
+}
+
+.signature img {
+    width: 200px;
+}

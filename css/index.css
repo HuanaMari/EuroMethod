@@ -1,13 +1,21 @@
 *{
     box-sizing: border-box;
-    margin: 0 auto;
+    margin: 0 ;
     /* font-family: 'Amatic SC', cursive; */
     font-family: 'Podkova', serif;
+    /* cursor: url(../images/bg/cursor-roller-white.png),auto; */
 }
 html {
     scroll-behavior: smooth;
+
   }
-  
+  a:hover{
+    /* cursor: url(../images/bg/cursor-roller-black.png),auto; */
+  }
+  .container{
+      width: 80%;
+      margin: 0 auto;
+  }
 img{
     width: 100%;
     object-fit: cover;
@@ -22,6 +30,24 @@ ul{
 a{
     text-decoration: none;
     cursor: pointer;
+}
+.blue-roller{
+    background-image: url(../images/blue-roller.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: left;
+    width: 300px;
+    height: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.blue-roller h1{
+    padding-left: 15px;
+    font-size: 20px;
+
 }
 .contact-fixed{
     position: fixed;
